@@ -1,7 +1,8 @@
-Abstract:
+**Abstract:**
+
 In general, more quotations extracted from news articles indicate more popularity or at least more exposure to the public. This could be vital for the careers of public figures, including politicians, movie stars, or even athletics. We can quantify the level of exposure by extracting the relevant number of quotations from Quotbank and incorporating the reading statistics of the source news. We can then examine how the level of exposure of certain public figures change over time and compare the time-series data to their major career events, such as political election, movie casting. We shall thereby explore the relationship between the exposure in news articles and the careers of politicians or celebrities. In addition, we may also train a model using the exposure level to predict the election results.
 	
-Proposed Questions:	
+**Proposed Questions:**	
 1. Does Quotation number/exposure level affect election results or maybe movie?
 2. Are there different shapes/situations of quotations increase? Are there sudden spikes?
 3. Are there differences between number Quoted by others v.s. number of own quotation?
@@ -9,17 +10,21 @@ Proposed Questions:
 5. When quoted by others, can we obtain a feel of support rate based on sentiment analysis?
 6. After 2016, does exposure of vocabulary/shorter sentences improves odds of success?
 
-Additional dataset:
+**Additional dataset:**
 1. Election results (House and Senate): https://electionlab.mit.edu/data	
 2. Movie statistics: https://www.kaggle.com/rounakbanik/the-movies-dataset
 3. Dataset for reading statistics?
 
-Methods:
-1. Get politician dataset (2015-), clean the name format, find quotations in Quotebank, both quoted and as most possible speaker
+**Methods:**
+1. Get politician dataset (2015-), clean the name format, find quotations in Quotebank, both being quoted and as most possible speaker
 2. Obtain the time series quotation/exposure data, with major event (election) marked
+3. Train a machine learning model to predict result based on cadidates quotation/exposure data
+4. Find a NLP model to determine the attitude of quotations toward the public figure mentioned in the quote
+5. Analyze the vocabulary and sentence length of quotations said by candidate, before 2016 and after.
 
 
 To ask on Friday:
-•	Data size: shall we just explicitly say the size?
-•	What’s in the data: mathematical details in the Notebook? Jupyter or readme?
+1. Data size: shall we just explicitly say the size?
+2. What’s in the data: mathematical details in the Notebook? Jupyter or readme?
+
  
