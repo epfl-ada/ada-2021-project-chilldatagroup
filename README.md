@@ -22,9 +22,8 @@ The above four questions are the central questions for us to explore the relatio
 6. After 2016 election, many republican politicians adopted the speech styles of Donald Trump. We want to examine whether the more coarse speech style (simpler vocubulary and shorter sentence lengths) actually helps their political career. 
 
 **Additional dataset:**
-1. Election results (House and Senate): https://electionlab.mit.edu/data	
-2. Dataset for reading statistics?
-3. Dataset for last election?
+1. The senate election result by MIT Election Data and Science Lab[1]. It contains the election information of each candidate. We use the dataset to get the identity, party affiliation, and resulting votes of each candidate.
+2. The presidential election result by MIT Election Data and Science Lab[2]. It contains the election information of each candidate in each states. We use the dataset to get the how much support each party get in 2016 and 2020 election. The support rate of each party in each state is used as features in our prediction model (Q4).
 
 **Methods:**
 1. Get politician dataset (2015-), clean the name format, find quotations in Quotebank, both being quoted and as most possible speaker
@@ -38,4 +37,6 @@ The above four questions are the central questions for us to explore the relatio
 **Questions for TA**
 
 
- 
+**Reference**:
+[1]MIT Election Data and Science Lab, 2017, "U.S. Senate 1976–2020", https://doi.org/10.7910/DVN/PEJ5QU, Harvard Dataverse, V5.
+[2]MIT Election Data and Science Lab, 2017, "U.S. President 1976–2020", https://doi.org/10.7910/DVN/42MVDX, Harvard Dataverse, V6.
