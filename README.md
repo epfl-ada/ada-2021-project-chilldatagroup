@@ -1,6 +1,6 @@
 **Can Quotations of Politicians Indicate Election Results?**
 
-**Link to Data Story Website:** 
+**Link to Data Story Website:** https://zihan-wu.github.io/SenateQuotationWeb/
 
 **Abstract:**
 
