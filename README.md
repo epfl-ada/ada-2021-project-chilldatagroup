@@ -29,16 +29,20 @@ Based on our interests in the relationship between quotations in news articles a
 
 **Methods:**
 
-To answer questions 1 and 2, we calculate how many quotations are related to a candidate before the election. We use Pearson correlation to examine the relationship between the numbers of two types of quotations and the resulting vote rate. To get the exposure level of each quotation, we weigh the quotation by the scaled readership of the source media.
+To answer questions 1 and 2, we calculate how many quotations are related to a candidate before the election. Since QuoteBank may extract different numbers of quotes at different time periods, we also normalize the quotes by the number of QuoteBank quotes in that month. We use Pearson correlation to examine the relationship between the numbers of two types of quotations and the resulting vote rate. To get the exposure level of each quotation, we weigh the quotation by the website view of the source media.
 
-To answer questions 3 and 4, we calculate the number of quotations of each candidate each day. This generates time-series data capturing the changes of quotation numbers. We will discretize this time series data by quotations in each month. We plan to cluster these discretized data to identify different types of the exposure-gaining process in question 3. For the prediction model in question 4, we will use time-series data (which is a high dimensional vector), the affiliated party, and the party's performance in the recent election (an indicator of the state's ideology) as features in training and prediction.
+Considering the difficulty of automatically obtaining all website view data, we manually searched the website views of the top 30 frequently appearing media in QuoteBank. For the rest media, their website views are represented by the median view of 10 randomly selected websites.
 
-For question 5, we plan to find a sentiment analysis model to determine whether the speaker of quotes supports the candidate mentioned in the quotes. We will calculate the support rate of each candidate in the quotes, and compute its correlation to the resulting vote rate.
+To answer questions 3, we calculate the number of quotations of each candidate each day. This generates time-series data capturing the changes of quotation numbers. We will discretize this time series data by aggregating quotations each month. We plan to cluster these discretized data to identify different types of the exposure-gaining process in question 3. 
 
-**Internal Milestones and Proposed Timeline**
+For the prediction model in question 4, we will use the same discretized quotation data and the affiliated party's performance in the recent presidential election (an indicator of the state's ideology) as the features for training and prediction. We will use logistic regression to build the model.
+
+For question 5, we plan to find a sentiment analysis model to determine whether the speaker of quotes supports the candidate mentioned in the quotes. We will calculate the average sentiment score toward each candidate in those quotes, and compute its correlation to the resulting vote rate.
+
+**Internal Milestones and Timeline**
 
 We plan 5 milestones, each accomplished in a week:
-1. By Nov.19th: Collected the readership of the frequently appearing source media 
+1. By Nov.19th: Collected the readership of the frequently appearing source media. Started Homewrok 2.
 2. By Nov.26th: Finished homework2. Found the appropriate sentiment analysis model.
 3. By Dec.3rd: Calculated the exposure level of quotations. Extracted the sentiments.
 4. By Dec.12th: Clustered the quotation data and examined different exposure gaining process.
