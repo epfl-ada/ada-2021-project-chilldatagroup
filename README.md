@@ -54,7 +54,7 @@ Zihan Wu: Load quotations said by candidates, found election result data, collec
 
 Yinhao Wang: Load quotations mention candidates and analyze the correlation between quotation and election result, clustering of different type of exposure pattern.
 
-Yihang Chen:
+Yihang Chen: name resolution, visualization of quotation frequency, build prediction model, sentiment analysis. 
 
 
 **Reference**:
