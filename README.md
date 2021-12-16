@@ -52,7 +52,7 @@ We plan 5 milestones, each accomplished in a week:
 
 Zihan Wu: Load quotations said by candidates, found election result data, collected website views of media, built prediction model features, wrote README.md and website.
 
-Yinhao Wang:
+Yinhao Wang: Load quotations mention candidates and analyze the correlation between quotation and election result, clustering of different type of exposure pattern.
 
 Yihang Chen:
 
