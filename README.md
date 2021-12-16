@@ -50,7 +50,7 @@ We plan 5 milestones, each accomplished in a week:
 
 **Contributions**
 
-Zihan Wu: Load quotations said by candidates, found election result data, collected website views of media, wrote README.md report.
+Zihan Wu: Load quotations said by candidates, found election result data, collected website views of media, built prediction model features, wrote README.md and website.
 
 Yinhao Wang:
 
